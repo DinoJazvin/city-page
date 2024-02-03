@@ -1,0 +1,226 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hero {
+    background-image: url("images/seattle-gif.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* font-family: 'Work Sans', sans-serif; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+} 
+
+#city-title {
+    /* font-family: 'Work Sans', sans-serif; */
+    background-color: #1D3557;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 5px 15px 5px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#city-description {
+    width: 400px;
+    margin-bottom: 70px;
+    background-color: #457B9D;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.activities {
+    /* background-color: #F1FAEE; */
+    /* background-color: grey; */
+    background: linear-gradient(#4309ca, white);
+    padding-bottom: 38px;
+    line-height: normal;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+/* 
+h1 h2 h3 {
+    margin: 0;
+    padding: 0;
+} */
+
+#activ-top {
+    /* color: #1D3557; */
+    color: white;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.things-to-do {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.activ-title {
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.activ-description {
+    width: 250px;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.activ-img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/* #ferry-img:hover {
+
+} */
+
+
+
+
+
+
+
+
+
+.univ {
+    height: auto;
+    background-color: rgb(95, 93, 93); 
+    margin: 0;
+    padding: 30px 0 50px 0;
+}
+
+#univ-title {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.univ-images {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+
+.univ-images img {
+    width: 18%; /* Set the desired width */
+    height: auto; /* Let the height adjust automatically to maintain the aspect ratio */
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guide {
+    /* background-image: linear-gradient(white, #4309ca, #4309ca); */
+    background-color: #1D3557;
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+    /* align-items: ce; */
+}
+
+.guide-box {
+    background-color: rgb(109, 182, 214);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#profile-img {
+    padding: 20px 0;
+    border-radius: 100px;
+    height: auto;
+    width: 250px;
+}
+
+.guide-info {
+    width: 200px;
+    padding-left: 30px;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+#your-guide {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#guide-description {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#guide-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
